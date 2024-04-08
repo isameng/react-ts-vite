@@ -13,7 +13,7 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react-refresh'],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', 'commitlint.config.cjs'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
   }
