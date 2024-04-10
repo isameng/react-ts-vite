@@ -12,7 +12,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', '@typescript-eslint'],
   ignorePatterns: ['dist', '.eslintrc.cjs', 'commitlint.config.cjs'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
